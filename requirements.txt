@@ -1,0 +1,6 @@
+flask
+flask-socketio
+requests
+user_agent
+httpx
+eventlet

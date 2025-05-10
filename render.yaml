@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: worfe-panel
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn run:app --worker-class eventlet -w 1 --bind 0.0.0.0:$PORT
+    plan: free
