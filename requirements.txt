@@ -4,3 +4,4 @@ requests
 user_agent
 httpx
 eventlet
+gunicorn
